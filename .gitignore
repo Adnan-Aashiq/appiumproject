@@ -1,0 +1,7 @@
+/target/test-classes
+/target/classes/META-INF/maven/appiumproject/appiumproject
+/test-output
+.classpath
+.project
+/.settings
+/target
