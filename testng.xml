@@ -1,8 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Appium Test Suite">
-    <test name="Appium Tests">
-        <classes>
-            <class name="appium2.NewTest" />
-        </classes>
-    </test>
+	<test name="Appium Tests">
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="deviceName" value="emulator-5554"></parameter>
+		<classes>
+			<class name="appium2.NewTest" />
+		</classes>
+	</test>
 </suite>
