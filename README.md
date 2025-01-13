@@ -25,7 +25,7 @@ Goto the Project diretory like the below command that will let you go to the Pro
 cd AppiumProject-Mobile-Login-page-Testing
 ```
 ### Step 2: Install dependencies
-Run the following command to download all required dependencies:
+Run the following command in the Project diretory to download all required dependencies:
 
 ```bash
 mvn clean install
@@ -37,7 +37,7 @@ Appium Desktop App [Appium Server GUI](https://github.com/appium/appium-desktop/
 ```bash
 appium
 ```
-### Step 4: Configure the Android Emulator
+### Step 4: Configure the Android Emulator [Watch this video from 12:00 till last to onfigure the Android Emulator](https://www.youtube.com/watch?v=fqwE6GdwCe0&list=PLnNg6KqJ3HGjH1qaJ50FoUmXPGnXbQZu7&index=4)
 Open Android Studio and create an emulator matching the desired device configuration.
 Start the emulator and verify it is running correctly by using below command.
 ```bash
