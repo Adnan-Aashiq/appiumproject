@@ -1,4 +1,4 @@
-package appium2;
+package testcases;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import appiumproject.BaseTest;
 import pages.HomePage;
 
-public class NewTest extends BaseTest{
+public class LoginTestCase extends BaseTest{
 	HomePage homepage;
 	
 	@BeforeMethod
@@ -22,7 +22,6 @@ public class NewTest extends BaseTest{
 		homepage.clickLoginButton();
 		homepage.verifySuccessMessage();
 		homepage.verifyalertMessage();
-		Thread.sleep(3000);
 		System.out.println("Test Completed");
 	}
 

@@ -4,7 +4,7 @@
 		<parameter name="platformName" value="Android"></parameter>
 		<parameter name="deviceName" value="emulator-5554"></parameter>
 		<classes>
-			<class name="appium2.NewTest" />
+			<class name="testcases.LoginTestCase" />
 		</classes>
 	</test>
 </suite>
