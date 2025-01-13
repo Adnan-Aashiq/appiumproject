@@ -18,21 +18,22 @@ Follow these steps to set up and run the tests:
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/Adnan-Aashiq/AppiumProject-Mobile-Login-page-Testing.git
 ```
-
+Goto the Project diretory like the below command that will let you go to the Project directory.
+```bash
+cd AppiumProject-Mobile-Login-page-Testing
+```
 ### Step 2: Install dependencies
 Run the following command to download all required dependencies:
 
 ```bash
-Copy code
 mvn clean install
 ```
 ### Step 3: Start the Appium Server
 Ensure the Appium server is running before executing the tests. You can start it via:
 
-Appium Desktop App or through Command line by using the below command:
+Appium Desktop App [Appium Server GUI](https://github.com/appium/appium-desktop/releases/tag/v1.22.3-4) or through Command line by using the below command:
 ```bash
 appium
 ```
@@ -43,9 +44,10 @@ Start the emulator and verify it is running correctly by using below command.
 adb devices
 ```
 if your Emulator is running you'll see a response like this.
-"List of devices attached
-emulator-5554	device"
-
+```bash
+List of devices attached
+emulator-5554	device
+```
 ### Step 5: Run the tests
 Execute the following Maven command to run the TestNG tests:
 
