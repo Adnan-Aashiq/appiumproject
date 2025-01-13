@@ -6,11 +6,11 @@ This repository contains a Maven and TestNG-based Appium automation framework fo
 
 To run the project, ensure you have the following installed:
 
-1. **Java Development Kit (JDK)** - Version 8 or higher.
-2. **Maven** - For managing dependencies.
-3. **Android Studio** - To set up and run the Android emulator.
-4. **Appium Server** - Installed and running.
-5. **Git** - To clone this repository.
+1. **[Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)** - Version 20 or higher.
+2. **[Maven](https://maven.apache.org/download.cgi)** - For managing dependencies.
+3. **[Android Studio](https://developer.android.com/studio)** - To set up and run the Android emulator.
+4. **[Appium Server](https://appium.io/downloads.html)** - Installed and running.
+5. **[Git](https://git-scm.com/downloads)** - To clone this repository.
 
 ## Project Setup
 
