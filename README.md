@@ -71,3 +71,5 @@ After execution, test results are displayed in the console. For additional repor
 
 * Integrate a reporting library like ExtentReports or Allure.
 * Generate detailed HTML or other format reports as needed.
+## Contact
+If you encounter any issues or have questions, feel free to contact me at **adnanaashiq457@gmail.com** and WhatsApp me on **+92-302-2149193**.
