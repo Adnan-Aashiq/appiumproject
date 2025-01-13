@@ -1,5 +1,8 @@
 # Appium Mobile Automation Testing Project
+Below is the IDE run of the Project
 
+https://github.com/user-attachments/assets/9dde20db-109b-43a8-b045-102fc2c46ba3
+## Project Overview
 This repository contains a Maven and TestNG-based Appium automation framework for testing mobile applications using an Android emulator (configured via Android Studio).
 
 ## Prerequisites
@@ -38,19 +41,20 @@ Appium Desktop App [Appium Server GUI](https://github.com/appium/appium-desktop/
 appium
 ```
 ### Step 4: Configure the Android Emulator [Watch this video from 12:00 till last to onfigure the Android Emulator](https://www.youtube.com/watch?v=fqwE6GdwCe0&list=PLnNg6KqJ3HGjH1qaJ50FoUmXPGnXbQZu7&index=4)
-Open Android Studio and create an emulator matching the desired device configuration.
+Open Android Studio and create an emulator matching the desired device configuration which is Android version 15.0.
 Start the emulator and verify it is running correctly by using below command.
 ```bash
 adb devices
 ```
-if your Emulator is running you'll see a response like this.
+if your Emulator is running you'll see a response like below and replace your deviceName value in testng.xml file with your emulator deviceName.
+
+<img width="1512" alt="Screenshot 2025-01-13 at 8 05 28 PM" src="https://github.com/user-attachments/assets/5e030c30-a76f-40cc-b15b-a6a799863036" />
 ```bash
 List of devices attached
 emulator-5554	device
 ```
 ### Step 5: Run the tests
-Execute the following Maven command to run the TestNG tests:
-
+Execute the following Maven command to run the TestNG tests or just user any IDE like Eclipse and Right click testng.xml>Run As>TestNG Suite:
 ```bash
 mvn test
 ```
