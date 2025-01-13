@@ -47,12 +47,13 @@ Start the emulator and verify it is running correctly by using below command.
 adb devices
 ```
 if your Emulator is running you'll see a response like below and replace your deviceName value in testng.xml file with your emulator deviceName.
-
-<img width="1512" alt="Screenshot 2025-01-13 at 8 05 28 PM" src="https://github.com/user-attachments/assets/5e030c30-a76f-40cc-b15b-a6a799863036" />
 ```bash
 List of devices attached
 emulator-5554	device
 ```
+
+<img width="1512" alt="Screenshot 2025-01-13 at 8 05 28 PM" src="https://github.com/user-attachments/assets/5e030c30-a76f-40cc-b15b-a6a799863036" />
+
 ### Step 5: Run the tests
 Execute the following Maven command to run the TestNG tests or just user any IDE like Eclipse and Right click testng.xml>Run As>TestNG Suite:
 ```bash
