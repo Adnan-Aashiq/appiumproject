@@ -59,7 +59,7 @@ mvn test
 ## Customization
 * Update configuration files (e.g., appium.properties) to adjust settings such as the device name, platform version, and application path.
 * Modify test scripts located in the src/test folder to extend or customize the test scenarios.
-Test Results
+## Test Results
 After execution, test results are displayed in the console. For additional reporting:
 
 * Integrate a reporting library like ExtentReports or Allure.
